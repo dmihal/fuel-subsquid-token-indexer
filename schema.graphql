@@ -1,0 +1,8 @@
+type Asset @entity {
+  id: ID!
+  contractId: String
+  subId: String
+  name: String
+  symbol: String
+  decimals: Int
+}
